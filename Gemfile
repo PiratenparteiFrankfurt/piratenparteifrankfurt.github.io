@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 ## site maintainers that they need to run `rvm install <VERSION>` on
 ## the build server(s) before they commit to master
 ruby '3.1.2'
+gem 'github-pages'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
