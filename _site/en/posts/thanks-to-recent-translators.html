@@ -1,0 +1,436 @@
+<!DOCTYPE HTML>
+<html lang="de">
+
+<head>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta property="og:image" content="https://bitcoin.org/img/icons/opengraph.png?1659877043" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title></title>
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/font-awesome-4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css?1659877043">
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css"><script type="text/javascript" src="/js/ie.js"></script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css"><![endif]-->
+<script type="text/javascript" src="/js/base.js?1659877043"></script>
+<script type="text/javascript" src="/js/main.js?1659877043"></script>
+<script src="/js/jquery/jquery-1.11.2.min.js"></script>
+<script src="/js/jquery/jquery-ui.min.js"></script>
+<script src="/js/jquery/jquery.qrcode.min.js"></script>
+<link rel="shortcut icon" href="/favicon.png?1659877043">
+<link rel="apple-touch-icon-precomposed" href="/img/icons/logo_ios.png?1659877043"/>
+<script>
+    window.cookieconsent_options = {
+        theme: 'light-floating'
+    }
+</script>
+<script type="text/javascript" src="/js/cookieconsent/cookieconsent.js?1659877043"></script>
+<script>
+if( navigator.doNotTrack != "yes" && navigator.doNotTrack != "1" && window.doNotTrack != "1" && navigator.msDoNotTrack != "1" ){
+	var script = document.createElement('script');
+	script.src = '/js/analytics.js'
+	document.getElementsByTagName("head")[0].appendChild(script);
+}
+</script>
+
+</head>
+
+<body>
+<!--
+
+
+<div class="donation-container">
+  <div class="donation-text">
+    <div class="donation-text-container">
+      <button onclick="closeDonationBanner()" class="donation-modal-close">
+        <img src="/img/icons/ico_close.svg?1659877043" alt="Close">
+      </button>
+      <p>
+        Diese Webseite entsteht durch Spenden. Jede Spende ist willkommen und hilft bei der Entwicklung der Website.
+      </p>
+      <button type="button" class="donation-btn" onclick="openDonationModal()">
+        Spenden
+      </button>
+    </div>
+  </div>
+  <button type="button" class="donation-visibility-toggle" onclick="toggleDonationBanner()">
+    Die PIRATEN brauchen deine Unterstützung!
+  </button>
+</div>
+
+
+
+<div id="donation-modal" style="display: none" class="donation-modal hidden">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <div class="modal-close-btn" onclick="closeDonationModal()">×</div>
+      <p class="modal-header-text section-title">"Spenden an die PIRATEN Frankfurt"</p>
+    </div>
+    <p class="modal-subheader">"Benutze diesen QR-Code oder die Adresse darunter"</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"></div>
+    </div>
+    <div>
+      <a
+        class="donation-btc-address"
+        href="bitcoin:3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"
+        target="_blank">
+        3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd
+      </a>
+    </div>
+    <div class="modal-body bg-white" style="overflow-y:hidden;text-align: center;">
+      <div>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        
+      </div>
+
+      <div>
+        <input
+          style="margin-right: 15px"
+          type="text"
+          placeholder="Oder einen spezifischen Betrag? (BTC)"
+          id="donation-input-amount-btc" class="donation-amount-input">
+        <input
+          type="text"
+          placeholder="Oder einen spezifischen Betrag? (USD)"
+          id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea
+          class="donation-amount-input"
+          id="donation-input-message"
+          placeholder="Optionale Beschreibung (für Ihre Wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+<div id="detectmobile" class="detectmobile"></div>
+
+
+
+
+
+<div class="head"><div>
+  
+
+<a class="logo" href="/"><img src="/img/logo/PiratenSignet.svg?1659877043" alt="Piratenpartei Frankfurt"></a>
+
+  
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Kreisverband</a>
+    <ul>
+      <li><a href="/vorstand">Vorstand</a>
+      <li><a href="/vorstandssitzungen">Sitzungen</a>
+      <li><a href="/satzung">Satzung</a>
+    </ul>
+  </li>
+  <li><a href="/mandate">Mandate</a></li>
+  <li><a href="/programm">Programm</a></li>
+  <li><a class="is-expand">Mitmachen</a>
+    <ul>
+      <li><a href="/mitmachen">Mitmachen</a>
+      <li><a href="/informieren">Informieren</a>
+      <li><a href="/piratentools">PiratenTools</a>
+      <li><a href="https://www.piratenpartei.de/werde-pirat/">Mitglied werden</a>
+      <li><a href="/spenden">Spenden</a>
+    </ul>
+  </li>
+  <li><a href="/termine">Termine</a></li>
+  <li><a href="/presse">Presse</a></li>
+  <li><a href="/faq">FAQ</a></li>
+</ul>
+
+  
+
+<a id="menumobile" class="menumobile" onclick="mobileMenuShow(event);" ontouchstart="mobileMenuShow(event);"></a>
+
+</div></div>
+
+<div class="body">
+  
+
+<div class="breadcrumbs">
+  <div class="container">
+    
+  </div>
+</div>
+
+  
+
+<div id="content" class="content">
+  <link rel="alternate" type="application/atom+xml" href="/en/rss/blog.xml" title="Bitcoin.org Site Blog">
+
+<div class="subhead-links">
+  <div class="container">
+    <a href="/en/blog">Blog home</a>
+    |
+    <a type="application/atom+xml" href="/en/rss/blog.xml">Subscribe to RSS feed</a>
+    |
+    <a href="https://github.com/bitcoin-dot-org/bitcoin.org/commits/master/_posts/2018-09-07-thanks-to-recent-translation-volunteers.md">Post history</a>
+    |
+    <a href="https://github.com/bitcoin-dot-org/bitcoin.org/issues/new?body=Source%20File%3A%20_posts/2018-09-07-thanks-to-recent-translation-volunteers.md%0A%0A">Report issue</a>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="container hero-container">
+    <h1>A Big Thanks to Recent Translators</h1>
+  </div>
+</header>
+
+<div class="toc-container">
+  <div class="row toc-row">
+  
+
+    <div class="toccontent">
+      <article class="article" markdown="1">
+        <h2 id="acknowledging-recent-translators">Acknowledging Recent Translators</h2>
+
+<p class="center"><img src="/img/blog/free/transifex.png?1659877043" alt="A Big Thanks to Recent Translation Volunteers" /></p>
+
+<p>Thanks to a <a href="https://bitcoin.org/en/posts/new-supporting-sponsorship-from-paxful">sponsorship from Paxful</a>,
+the following volunteer translators who have been the most active contributors
+in recent months are being given bitcoin for their efforts:</p>
+
+<ul>
+  <li>Abegi</li>
+  <li>FrancescoGalati</li>
+  <li>JurgenH</li>
+  <li>Kasvain</li>
+  <li>Komodorpudel</li>
+  <li>Kruell233</li>
+  <li>MedMus</li>
+  <li>Rasakila</li>
+  <li>Thalesfcastro</li>
+  <li>Vinifire</li>
+  <li>YummyPT</li>
+  <li>alanst</li>
+  <li>alexandra.cg15</li>
+  <li>bernat</li>
+  <li>buren</li>
+  <li>chrisper</li>
+  <li>cocoklogi</li>
+  <li>crynvestor</li>
+  <li>dalovar</li>
+  <li>def1ne</li>
+  <li>echo4py</li>
+  <li>enriquecartagena</li>
+  <li>excess</li>
+  <li>fjrojasgarcia</li>
+  <li>hzxswyg</li>
+  <li>icarius</li>
+  <li>isty98</li>
+  <li>karin.garri</li>
+  <li>klicman</li>
+  <li>learningis1st</li>
+  <li>luggi5711</li>
+  <li>manuelarodsilva</li>
+  <li>mariofgf14</li>
+  <li>mateusnds</li>
+  <li>mjglqw</li>
+  <li>mreza73</li>
+  <li>natsam</li>
+  <li>nedved</li>
+  <li>paolobaz</li>
+  <li>peto.juhasz</li>
+  <li>pryds</li>
+  <li>quellobiondo</li>
+  <li>rodlin</li>
+  <li>simonLimon</li>
+  <li>sitthykun</li>
+  <li>trior</li>
+  <li>vit05</li>
+  <li>Василий33</li>
+</ul>
+
+<p>A big thanks goes to these volunteers. Their work behind the scenes shouldn’t
+go unnoticed, and we dedicate this blog post to recognizing them.</p>
+
+<p>Each month, more and more people all around the world are hearing, reading and
+learning more about Bitcoin. Seeing a business with a “Bitcoin accepted here”
+sign may not be something rare for some of us anymore… but it still is for
+many in a lot of places. Even though Bitcoin adoption is spreading like
+wildfire, we haven’t even scratched the surface of what could be possible. In
+order for knowledge to spread, information has to be freed to transmit easily
+from person to person, across borders, across languages, between cultures,
+philosophies, religions and ideologies. Some people say we are all Satoshi,
+now. For that to ring true, we must find our voice to speak, spread and support
+Bitcoin as one.</p>
+
+<p>There have been tens of millions of visitors to Bitcoin.org this year alone.
+About half of them speak English. The rest are millions of visitors
+speaking all kinds of other languages from across the globe. For them, we rely
+on volunteer translators - like the above individuals - people who translate
+Bitcoin.org into their own native languages so that when people who speak them
+come to Bitcoin.org, the site displays by default in their own native tongue.</p>
+
+<p>There are currently 70 languages in various states of translation, 27 of which
+have reached states of completion that have enabled them to be added to
+Bitcoin.org. In addition, earlier this year, the developer documentation was
+ported so that it could also start to be translated into other languages. It’s
+important that we provide a way to help a new generation of Bitcoin developers
+in non English-speaking countries learn more about Bitcoin on a technical
+level, to help foster the development of new products and services, for the
+people in their communities who are already interested in using it.</p>
+
+<p>As one of the most visited Bitcoin websites, translating Bitcoin.org is a great
+way to help Bitcoin continue to spread.</p>
+
+<p><a href="https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/assisting-with-translations.md#getting-started-with-the-translation-team"><strong>If you want to be like one of the people above and join the effort, learn how to get started.</strong></a></p>
+
+<p><em>A special thanks also goes to Simon AKA “Komodorpudel” who has spent a lot of
+time co-organizing various translation-related efforts. Thank you, Simon. Lastly,
+but not least, to <a href="https://transifex.com/">Transifex</a>, for graciously providing
+enterprise-grade localization services to support Bitcoin.org.</em></p>
+
+        <p class="post-meta">Posted to the
+        <a href="/en/blog">Bitcoin.org Site Blog</a> on 07 September 2018  by <a href="https://github.com/wbnns">Will Binns</a>
+
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
+
+</div>
+  <div class="footer">
+    <div class="container">
+      
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">PIRATEN unterstützen:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Spenden</a>
+        <p class="donate-text">Die Piratenpartei ist ein Community-Projekt.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Einführung:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/waehler %}">Wähler</a>
+        </li>
+        <li>
+          <a href="/unterstuetzer %}">Unterstützer</a>
+        </li>
+        <li>
+        <a href="/mitglieder %}">Mitglieder</a>
+        </li>
+        <li>
+          <a href="/erste-schritte">Erste Schritte</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Ressourcen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/ressourcen">Ressourcen</a>
+        </li>
+        <li>
+          <a href="/community">Community</a>
+        </li>
+        <li>
+          <a href="/glossar">Glossar</a>
+        </li>
+        <li>
+          <a href="/events">Events</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Mitmachen:</p>
+      <ul class="footermenu-list">
+        <li>
+          <a href="/piraten-unterstuetzen">Unterstützen</a>
+        </li>
+        <li>
+          <a href="/entwicklung">Entwicklung</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Sonstiges:</p>
+      <a href="/kontakt">Kontakt</a>
+      <a href="/impressum">Impressum</a>
+      <a href="/datenschutzerklärung">Datenschutzerklärung</a>
+      <a href="/spenden">Spenden</a>
+      <a href="/blog">Blog</a>
+    </div>
+  </div>
+</div>
+
+      
+
+<div class="footersponsor">
+  <!--<div><span>Eine Community-Website gesponsert von</span> <a href="https://bitcoinfoundation.org/"><img src="/img/brand/bitcoinfoundation.png?1659877043" alt="Bitcoin Foundation"></a></div>-->
+</div>
+
+    </div>
+      
+
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row footer-bottom-row">
+      <div class="footerlicense">© Bitcoin Project 2009-2022 Veröffentlicht unter der <a href=\"http://opensource.org/licenses/mit-license.php\" target=\"_blank\">MIT-Lizenz</a></div>
+      </div>
+<!--      <div class="row">  -->
+        
+<!--    </div> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  fallbackSVG();
+  addAnchorLinks();
+  trackOutgoingLinks();
+  toggleDarkMode();
+</script>
+
+
+
+
+
+  <script>updateToc();</script>
+<script>boxShow();</script>
+<script>onScrollButton();</script>
+
+
+
+</body>
+
+</html>

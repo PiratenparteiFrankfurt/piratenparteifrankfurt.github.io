@@ -1,0 +1,96 @@
+{% comment %} This file is licensed under the MIT License (MIT) available on http://opensource.org/licenses/MIT. {% endcomment %}
+
+
+<div class="mainhero">
+  <div class="container hero-container">
+    <div class="row three-column-row">
+      <div>
+        <img class="maindesc-img" width="300" src="/img/logo/Piratenpartei_Frankfurt.svg?{{site.time | date: '%s'}}" alt="Bitcoin image">
+      </div>
+      <div class="col">
+        <p class="mainsummary">Für ein glückliches selbstbestimmtes Leben mit den Möglichkeiten des Zeitalters der Digitalisierung.</p>
+      </div>
+    </div>
+    <div class="btn-container">
+      <a class="btn btn-bright btn-home" href="/ziele">Unsere Ziele</a>
+      <a class="btn btn-light btn-home" href="/piraten">Über die PIRATEN</a>
+      <a class="btn btn-light btn-home" href="/mitglied-werden">Mitglied werden</a>
+    </div>
+    <div class="mainvideo">
+      <button class="mainvideo-btn-open" onclick="loadYoutubeVideo(event);" ontouchstart="loadYoutubeVideo(event);" data-youtubeurl="//www.youtube.com/embed/i5JZEBYR-2Y?rel=0&amp;showinfo=0&amp;wmode=opaque&amp;autoplay=1">Über uns</button>
+    </div>
+
+  </div>
+</div>
+<div class="mainoverview">
+  <div class="container">
+    <div class="mainoverview-title">Du interessierst dich für uns als:</div>
+    <a href="/einzelpersonen" class="maincard">
+      <img class="maincard-img" src="/img/icons/ico_individuals.svg?{{site.time | date: '%s'}}" alt="Icon">
+      <div>
+        <p class="maincard-title">Wähler</p>
+        <p class="maincard-link">Mehr erfahren</p>
+      </div>
+    </a>
+    <a href="/unternehmen" class="maincard">
+      <img class="maincard-img" src="/img/icons/ico_business.svg?{{site.time | date: '%s'}}" alt="Icon">
+      <div>
+        <p class="maincard-title">Unterstützer</p>
+        <p class="maincard-link">Mehr erfahren</p>
+      </div>
+    </a>
+    <a href="/entwickler" class="maincard">
+      <img class="maincard-img" src="/img/icons/ico_developers.svg?{{site.time | date: '%s'}}" alt="Icon">
+      <div>
+        <p class="maincard-title">Mitglied</p>
+        <p class="maincard-link">Mehr erfahren</p>
+      </div>
+    </a>
+  </div>
+  <a class="btn-down" href="#maindesc-title">
+    <img src="/img/icons/ico_arrow_down.svg?{{site.time | date: '%s'}}" alt="Link">
+  </a>
+</div>
+<div class="maindesc">
+  <div class="container">
+    <p class="section-title center home-title" id="maindesc-title">Loslegen mit der Politik</p>
+    <div class="row maindesc-row">
+      <div>
+        <p class="maindesc-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>
+        <ul class="mainlist">
+          
+            <li class="mainlist-item">
+              <img src="/img/icons/main_ico_instant.svg?{{site.time | date: '%s'}}" alt="Icon">
+              <p>Feature 1</p>
+            </li>
+          
+          
+            <li class="mainlist-item">
+              <img src="/img/icons/main_ico_worldwide.svg?{{site.time | date: '%s'}}" alt="Icon">
+              <p>Feature 2</p>
+            </li>
+          
+          
+            <li class="mainlist-item">
+              <img src="/img/icons/main_ico_lowfee.svg?{{site.time | date: '%s'}}" alt="Icon">
+              <p>Feature 3</p>
+            </li>
+          
+        </ul>
+      </div>
+      <img class="maindesc-img" src="/img/home/piraten-img.svg?{{site.time | date: '%s'}}" alt="Bitcoin image">
+    </div>
+    <div class="btn-container">
+      <a class="btn btn-dark btn-home center" href="/erste-schritte">Erste Schritte</a>
+    </div>
+  </div>
+</div>
+
+<!-- Youtube popup video -->
+<div class="modal closed">
+  <iframe class="modal-video" allowfullscreen="" frameborder="0">
+  </iframe>
+  <button class="mainvideo-btn-close" onclick="loadYoutubeVideo(event);" ontouchstart="loadYoutubeVideo(event);"></button>
+</div>
+<div class="modal-overlay closed">
+</div>

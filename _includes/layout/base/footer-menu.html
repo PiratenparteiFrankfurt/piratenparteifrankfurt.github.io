@@ -1,0 +1,75 @@
+{% comment %}
+This file is licensed under the MIT License (MIT) available on
+http://opensource.org/licenses/MIT.
+{% endcomment %}
+
+<div class="row footer-row">
+  <div class="donate">
+    <div class="row donate-row">
+      <div>
+        <span class="footer-title">PIRATEN unterstützen:</span>
+        <a onclick="openDonationModal()" class="donate-btn btn-bright">Spenden</a>
+        <p class="donate-text">Die Piratenpartei ist ein Community-Projekt.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footermenu">
+    <div class="footermenu-item footermenu-introduction">
+      <p class="footer-title">Einführung:</p>
+      <ul class="footermenu-list">
+        <li{% if page.id == 'waehler' %} class="active"{% endif %}>
+          <a href="/waehler %}">Wähler</a>
+        </li>
+        <li{% if page.id == 'unterstuetzer' %} class="active"{% endif %}>
+          <a href="/unterstuetzer %}">Unterstützer</a>
+        </li>
+        <li{% if page.id == 'mitglieder' %} class="active"{% endif %}>
+        <a href="/mitglieder %}">Mitglieder</a>
+        </li>
+        <li{% if page.id == 'erste-schritte' %} class="active"{% endif %}>
+          <a href="/erste-schritte">Erste Schritte</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-resources">
+      <p class="footer-title">Ressourcen:</p>
+      <ul class="footermenu-list">
+        <li{% if page.id == 'resources' %} class="active"{% endif %}>
+          <a href="/ressourcen">Ressourcen</a>
+        </li>
+        <li{% if page.id == 'community' %} class="active"{% endif %}>
+          <a href="/community">Community</a>
+        </li>
+        <li{% if page.id == 'glossar' %} class="active"{% endif %}>
+          <a href="/glossar">Glossar</a>
+        </li>
+        <li{% if page.id == 'events' %} class="active"{% endif %}>
+          <a href="/events">Events</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="footermenu-item footermenu-participate">
+      <p class="footer-title">Mitmachen:</p>
+      <ul class="footermenu-list">
+        <li{% if page.id == 'support' %} class="active"{% endif %}>
+          <a href="/piraten-unterstuetzen">Unterstützen</a>
+        </li>
+        <li{% if page.id == 'entwicklung' %} class="active"{% endif %}>
+          <a href="/entwicklung">Entwicklung</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footermenu-item footermenu-other">
+      <p class="footer-title">Sonstiges:</p>
+      <a href="/kontakt">Kontakt</a>
+      <a href="/impressum">Impressum</a>
+      <a href="/datenschutzerklärung">Datenschutzerklärung</a>
+      <a href="/spenden">Spenden</a>
+      <a href="/blog">Blog</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+---
+permalink: /404.html
+layout: page
+id: index
+title: Wo bin ich?
+subtitle: Wo ist die Webseite hin???
+---
+
+## 404
+
+### Du hast möglicherweise einen Fehler in der Matrix entdeckt!
+
+Diese Seite scheint gerade nicht zu existieren.

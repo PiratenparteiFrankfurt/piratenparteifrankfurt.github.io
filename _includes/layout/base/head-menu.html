@@ -1,0 +1,28 @@
+{% comment %}
+This file is licensed under the MIT License (MIT) available on
+http://opensource.org/licenses/MIT.
+{% endcomment %}
+
+<ul id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+  <li><a class="is-expand">Kreisverband</a>
+    <ul>
+      <li{% if page.id == 'vorstand' %} class="active"{% endif %}><a href="/vorstand">Vorstand</a>
+      <li{% if page.id == 'sitzungen' %} class="active"{% endif %}><a href="/vorstandssitzungen">Sitzungen</a>
+      <li{% if page.id == 'satzung' %} class="active"{% endif %}><a href="/satzung">Satzung</a>
+    </ul>
+  </li>
+  <li{% if page.id == 'mandate' %} class="active"{% endif %}><a href="/mandate">Mandate</a></li>
+  <li{% if page.id == 'programm' %} class="active"{% endif %}><a href="/programm">Programm</a></li>
+  <li><a class="is-expand">Mitmachen</a>
+    <ul>
+      <li{% if page.id == 'mitmachen' %} class="active"{% endif %}><a href="/mitmachen">Mitmachen</a>
+      <li{% if page.id == 'informieren' %} class="active"{% endif %}><a href="/informieren">Informieren</a>
+      <li{% if page.id == 'piratentools' %} class="active"{% endif %}><a href="/piratentools">PiratenTools</a>
+      <li{% if page.id == 'mitglied-werden' %} class="active"{% endif %}><a href="https://www.piratenpartei.de/werde-pirat/">Mitglied werden</a>
+      <li{% if page.id == 'spenden' %} class="active"{% endif %}><a href="/spenden">Spenden</a>
+    </ul>
+  </li>
+  <li{% if page.id == 'termine' %} class="active"{% endif %}><a href="/termine">Termine</a></li>
+  <li{% if page.id == 'presse' %} class="active"{% endif %}><a href="/presse">Presse</a></li>
+  <li{% if page.id == 'faq' %} class="active"{% endif %}><a href="/faq">FAQ</a></li>
+</ul>
