@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 ## make sure Travis supports that version. Then remind one of the
 ## site maintainers that they need to run `rvm install <VERSION>` on
 ## the build server(s) before they commit to master
-ruby '3.1.2'
+ruby '3.0.4'
 gem 'github-pages'
 
 # Hello! This is where you manage which Jekyll version is used to run.
