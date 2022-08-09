@@ -1,4 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+
+## If you update the version here, also update it in .travis.yml and
+## docs/setting-up-your-environment.md. Then push your branch and
+## make sure Travis supports that version. Then remind one of the
+## site maintainers that they need to run `rvm install <VERSION>` on
+## the build server(s) before they commit to master
+ruby '3.1.2'
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
