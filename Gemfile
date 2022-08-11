@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 ## site maintainers that they need to run `rvm install <VERSION>` on
 ## the build server(s) before they commit to master
 ruby '3.1.2'
-gem 'github-pages'
+# gem 'github-pages', '~> 227'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -16,7 +16,7 @@ gem 'github-pages'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2.2"
+gem 'jekyll', '~> 4.2', '>= 4.2.2'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
