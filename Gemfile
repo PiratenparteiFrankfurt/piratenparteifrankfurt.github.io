@@ -28,3 +28,21 @@ gem "jekyll", "~> 4.2.2"
 
 
 gem "webrick", "~> 1.7"
+
+## Used on the build server. If you add a package here (like nokogiri)
+## that has non-Gem dependencies (like zlib), please remind the site
+## maintainers that they need to manually update the build server(s)
+## before they commit to master. If `bundle install` can satisfy all
+## your dependencies, then nothing extra needs to be done
+group :development do
+  gem 'ffi-icu'
+  gem 'json', '2.6.2'
+  gem 'less', '2.6.0'
+  gem 'kramdown', '2.4.0'
+  gem 'RedCloth', "4.3.2"
+  gem 'mini_racer'
+  # gem 'therubyracer', "0.12.3" # required by less
+  gem 'jshintrb', '0.3.0'
+  gem 'safe_yaml', '1.0.5'
+  gem 'json-schema', '3.0.0'
+end
